@@ -1,0 +1,1 @@
+web: nodemon -L server.js

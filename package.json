@@ -1,0 +1,23 @@
+{
+  "name": "nodeJS-boilerplate-api",
+  "version": "1.0.0",
+  "description": "Boilerplate for express api",
+  "main": "index.js",
+  "scripts": {
+    "start": "heroku local -f Procfile_dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ole Martin Skaug",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.3",
+    "morgan": "^1.8.1",
+    "password-hash": "^1.2.2",
+    "sanitize": "^2.0.1",
+    "validator": "^6.2.1"
+  }
+}
